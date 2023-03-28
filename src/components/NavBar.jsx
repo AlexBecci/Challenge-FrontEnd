@@ -5,23 +5,23 @@ function NavBar() {
   return (
     <header className="text-gray-400 body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <p className="flex title-font font-medium items-center text-zinc-200 mb-4 md:mb-0 ml-3 text-4xl lg:pl-48">
+        <p className="flex title-font font-medium items-center text-zinc-200 mb-4 md:mb-0 ml-3 text-4xl lg:pl-36">
           B
         </p>
         <nav className="md:ml-auto md:mr-auto lg:ml-72 flex flex-wrap items-center text-base justify-center font-normal">
-          <a href="#s" className="mr-3 hover:border-b-2 border-b-gray-600  hover:text-white hover:font-bold">
+          <a href="#s" className="mr-3 hover:border-b border-b-gray-600  hover:text-white hover:font-bold">
             Cursos
           </a>
-          <a href="#s" className="mr-3 hover:border-b-2 border-b-gray-600  hover:text-white hover:font-bold">
+          <a href="#s" className="mr-3 hover:border-b border-b-gray-600  hover:text-white hover:font-bold">
             Quienes somos
           </a>
-          <a href="#s" className="mr-3 hover:border-b-2 border-b-gray-600  hover:text-white hover:font-bold">
+          <a href="#s" className="mr-3 hover:border-b border-b-gray-600  hover:text-white hover:font-bold">
             noticias frescas
           </a>
-          <a href="#s" className="mr-3 hover:border-b-2 border-b-gray-600  hover:text-white hover:font-bold">
+          <a href="#s" className="mr-3 hover:border-b border-b-gray-600  hover:text-white hover:font-bold">
             #Wearedoers
           </a>
-          <a href="#s" className=" hover:border-b-2 border-b-gray-600  hover:text-white hover:font-bold">
+          <a href="#s" className=" hover:border-b border-b-gray-600  hover:text-white hover:font-bold">
             Contacto
           </a>
         </nav>
