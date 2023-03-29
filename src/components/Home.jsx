@@ -1,9 +1,10 @@
 import React from "react";
 import { BsArrowDown } from "react-icons/bs";
+import { FiMessageSquare,FiHexagon } from "react-icons/fi";
 
 function Home() {
   return (
-    <section>
+    <div>
       <div className=" my-10 pb-4"></div>
 
       <div className="relative mx-auto max-w-7xl border-t border-gray-600   pb-10 font-serif  ">
@@ -27,10 +28,12 @@ function Home() {
               </div>
             </div>
 
-            <div className="lg:grid lg:grid-cols-2 lg:gap-6">
+            <div className="lg:grid lg:grid-cols-2 lg:gap-6 text-white">
               <div className="flex flex-col mb-12 overflow-hidden ">
                 <div className="flex-shrink-0"></div>
-                <div className="flex flex-col justify-between flex-1"></div>
+                <div className="flex flex-col justify-between flex-1">
+                  <FiHexagon/>
+                </div>
               </div>
 
               <div className="flex flex-col mb-12 overflow-hidden items-center  ">
@@ -80,15 +83,23 @@ function Home() {
           </div>
         </div>
         <div className="text-gray-400 flex justify-end">
-          <h1 className=" px-20">Ver todos los cursos</h1>
+          <div>
+            <h1 className=" px-20">Ver todos los cursos</h1>
+            <div>
+              <button className="mx-20 mt-20 flex flex-row items-center bg-blue-600 text-white py-2 px-5 rounded-tl-xl text-sm font-semibold rounded-bl-sm hover:scale-105 duration-300 hover:bg-yellow-500">
+                <FiMessageSquare size={20} className="mr-1" />
+                Hola, Bro :)
+              </button>
+            </div>
+          </div>
         </div>
-        <div className="ml-96 mr-96 px-8 py-20">
+        <div className="ml-96 mr-96 px-8 py-10">
           <p className="text-white ">
             <BsArrowDown className="hover:scale-125 duration-500" size={40} />
           </p>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
