@@ -8,8 +8,8 @@ import { AiOutlineMinusCircle } from "react-icons/ai";
 
 function Home() {
   return (
-    <div>
-      <div className=" my-10 pb-4"></div>
+    <div className="bg-black">
+      <div className=" py-10 pb-10 container"></div>
       <div className="relative mx-auto max-w-7xl border-t border-gray-600   pb-10 font-serif  ">
         <div className="border-b border-gray-600 mb-5">
           <div className="grid max-w-lg gap-8 mx-auto mt-12 lg:grid-cols-2 lg:max-w-none   ">
@@ -20,7 +20,10 @@ function Home() {
               </div>
               <div className="flex flex-col justify-between flex-1">
                 <div className="flex-1">
-                  <AiOutlineMinusCircle size={30} className="text-red-500 ml-56" />
+                  <AiOutlineMinusCircle
+                    size={30}
+                    className="text-red-500 ml-56"
+                  />
                   <p className="block mt-2 space-y-2 ml-64">
                     <h3 className=" px-4 text-8xl font-serif leading-none   text-white">
                       Brother
@@ -110,9 +113,12 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="ml-96 mr-96 px-8 py-10">
+        <div className="ml-96 mr-96 px-8 py-5 pb-0">
           <p className="text-white ">
-            <BsArrowDown className="hover:scale-125 duration-500 animate-bounce" size={40} />
+            <BsArrowDown
+              className="hover:scale-125 duration-500 animate-bounce"
+              size={40}
+            />
           </p>
         </div>
       </div>
