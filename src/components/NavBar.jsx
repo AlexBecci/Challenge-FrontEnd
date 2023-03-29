@@ -1,5 +1,9 @@
 import React from "react";
-import { HiOutlineMail} from "react-icons/hi";
+import { HiOutlineMail } from "react-icons/hi";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { TbWorld } from "react-icons/tb";
+
+
 
 function NavBar() {
   return (
@@ -9,31 +13,55 @@ function NavBar() {
           B
         </p>
         <nav className="md:ml-auto md:mr-auto lg:ml-72 flex flex-wrap items-center text-base justify-center font-normal">
-          <a href="#s" className="mr-3 hover:border-b border-b-gray-600  hover:text-white hover:font-bold">
+          <a
+            href="#s"
+            className="mr-3 hover:border-b border-b-gray-600  hover:text-white hover:font-bold"
+          >
             Cursos
           </a>
-          <a href="#s" className="mr-3 hover:border-b border-b-gray-600  hover:text-white hover:font-bold">
+          <a
+            href="#s"
+            className="mr-3 hover:border-b border-b-gray-600  hover:text-white hover:font-bold"
+          >
             Quienes somos
           </a>
-          <a href="#s" className="mr-3 hover:border-b border-b-gray-600  hover:text-white hover:font-bold">
+          <a
+            href="#s"
+            className="mr-3 hover:border-b border-b-gray-600  hover:text-white hover:font-bold"
+          >
             noticias frescas
           </a>
-          <a href="#s" className="mr-3 hover:border-b border-b-gray-600  hover:text-white hover:font-bold">
+          <a
+            href="#s"
+            className="mr-3 hover:border-b border-b-gray-600  hover:text-white hover:font-bold"
+          >
             #Wearedoers
           </a>
-          <a href="#s" className=" hover:border-b border-b-gray-600  hover:text-white hover:font-bold">
+          <a
+            href="#s"
+            className=" hover:border-b border-b-gray-600  hover:text-white hover:font-bold"
+          >
             Contacto
           </a>
         </nav>
         <div className="md:mr-20 ">
-          <a href="#mail" className="mr-0 inline-flex items-center  border-0 py-2 px-0  rounded mt-4 md:mt-0 hover:text-white hover:scale-105 duration-200">
-            <HiOutlineMail className="" size={25}/>
+          <a
+            href="#mail"
+            className="mr-0 inline-flex items-center  border-0 py-2 px-0  rounded mt-4 md:mt-0 hover:text-white hover:scale-105 duration-200"
+          >
+            <HiOutlineMail className="" size={25} />
           </a>
-          <a href="#mail" className="mx-2 inline-flex items-center  border-0 py-2 px-0  rounded mt-4 md:mt-0 hover:text-white hover:scale-105 duration-200">
-            <HiOutlineMail className="" size={25}/>
+          <a
+            href="#mail"
+            className="mx-2 inline-flex items-center  border-0 py-2 px-0  rounded mt-4 md:mt-0 hover:text-white hover:scale-105 duration-200"
+          >
+            <AiOutlineInstagram className="" size={25} />
           </a>
-          <a href="#mail" className="mr-12 inline-flex items-center  border-0 py-2 px-0  rounded mt-4 md:mt-0 hover:text-white hover:scale-105 duration-200">
-            <HiOutlineMail className="" size={25}/>
+          <a
+            href="#mail"
+            className="mr-12 inline-flex items-center  border-0 py-2 px-0  rounded mt-4 md:mt-0 hover:text-white hover:scale-105 duration-200"
+          >
+            <TbWorld className="" size={25} />
           </a>
         </div>
       </div>

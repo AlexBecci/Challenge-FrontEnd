@@ -1,6 +1,6 @@
 import React from "react";
 import { BsArrowDown } from "react-icons/bs";
-import { AiOutlineInstagram } from "react-icons";
+
 function Home() {
   return (
     <section>
