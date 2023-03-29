@@ -6,14 +6,14 @@ import { BsFillCircleFill } from "react-icons/bs";
 import { FaAsterisk } from "react-icons/fa";
 import { AiOutlineMinusCircle } from "react-icons/ai";
 
-function Home2() {
+function Home() {
   return (
     <section className="text-gray-600 body-font overflow-hidden bg-black">
-      <div className="container px-5 py-12 mx-auto">
+      <div className="container px-5 py-12 pb-0 mb-0 mx-auto">
         <FaAsterisk size={20} className="text-blue-800  hover:animate-spin " />
         <div className="flex flex-wrap -m-12 border-t border-gray-600 my-12 ">
           <div className="p-12 md:w-1/2 flex flex-col items-center sm:pl-80 ">
-            <AiOutlineMinusCircle className="text-gray-500 w-12 h-12 hover:animate-spin mr-96" />
+            <AiOutlineMinusCircle className="text-gray-500 w-12 h-12 hover:animate-spin lg:mr-96" />
             <h2 className="sm:text-9xl  title-font font-medium  -mt-24  px-4 text-3xl font-serif leading-none   text-white ml-20 pl-14">
               Brother
             </h2>
@@ -30,7 +30,7 @@ function Home2() {
               />
             </p>
           </div>
-          <div className="p-12 md:w-1/2 flex flex-col items-start pl-72">
+          <div className="p-12 md:w-1/2 flex flex-col items-start lg:pl-72">
             <div className="mt-0 text-gray-400">
               <div className="px-2 py-1 scale-95 text-center flex flex-row  mb-10">
                 <div>
@@ -82,7 +82,7 @@ function Home2() {
               // Ver todos los cursos
             </h1>
             <div className="">
-              <button className="mx-20 mt-5 flex flex-row items-center bg-blue-600 text-white py-2 px-5 rounded-tl-xl text-sm font-semibold rounded-bl-sm hover:scale-105 duration-300 hover:bg-yellow-500">
+              <button className="lg:mx-20 mt-5 flex flex-row items-center bg-blue-600 text-white py-2 px-5 rounded-tl-xl text-sm font-semibold rounded-bl-sm hover:scale-105 duration-300 hover:bg-yellow-500">
                 <FiMessageSquare size={20} className="mr-1" />
                 Hola, Bro :)
               </button>
@@ -107,4 +107,4 @@ function Home2() {
   );
 }
 
-export default Home2;
+export default Home;
