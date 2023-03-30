@@ -1,15 +1,15 @@
 import React from "react";
 
-function CardNotices({text,img,date}) {
+function CardNotices({text,img,date, height}) {
   return (
-    <div className="xl:w-1/4 md:w-1/2 p-4">
+    <div className="xl:w-1/4 md:w-1/2 p-4 ">
       <div className="h-full  border-opacity-60 rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center border-4 border-black" src={img} alt="blog"/>
+          <img className={`lg:h-${height} md:h-36 w-96 object-cover object-center border-4 border-black`} src={img} alt="blog"/>
           <div className="p-6">
         
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">{text}</h1>
             <div className="flex items-center flex-wrap ">
-              <span className="text-gray-500 inline-flex items-center leading-none text-sm mx-auto">
+              <span className="text-gray-500 inline-flex items-center leading-none text-xs mx-auto">
                Publicado:{date} .
               </span>
               <a href="#leerMas" className="text-gray-500 inline-flex items-center md:mb-2 lg:mb-0 mx-auto">Leer mas
