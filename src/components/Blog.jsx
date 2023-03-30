@@ -1,11 +1,12 @@
 import React from "react";
 import Card from "./workshops/Card";
-import cursoAnual from "../images/cursoAnual.png";
-import estrategia from "../images/estrategia.jpg";
-import brotherPr from "../images/brotherPr.jpg";
-import springBreak from "../images/springBreak.jpg";
-import bThinker from "../images/bThinker.jpg";
-import socialCreative from "../images/socialCreative.png";
+
+import thumb3 from "../images/Thumb/thumb-01.jpg";
+import thumb1 from "../images/Thumb/thumb-02.jpg";
+import thumb2 from "../images/Thumb/thumb-03.jpg";
+import thumb6 from "../images/Thumb/thumb-04.jpg";
+import thumb4 from "../images/Thumb/thumb-05.jpg";
+import thumb5 from "../images/Thumb/thumb-06.jpg";
 
 function Blog() {
   return (
@@ -48,18 +49,12 @@ function Blog() {
               Cursos & Workshops
             </h2>
             <div className="flex flex-wrap -m-4">
-              <Card img={cursoAnual} name="Curso Anual de Creatividad" />
-              <Card
-                img={estrategia}
-                name="Planificacion y Estrategia Creativa"
-              />
-              <Card img={brotherPr} name="PR & Comunicacion" />
-              <Card img={springBreak} name="Digital y Social Media" />
-              <Card img={bThinker} name="Desing Thinking" />
-              <Card
-                img={socialCreative}
-                name="Planificacion y Estrategia Creativa"
-              />
+              <Card img={thumb1} name="Curso Anual de Creatividad" />
+              <Card img={thumb2} name="Planificacion y Estrategia Creativa" />
+              <Card img={thumb3} name="PR & Comunicacion" />
+              <Card img={thumb4} name="Digital y Social Media" />
+              <Card img={thumb5} name="Desing Thinking" />
+              <Card img={thumb6} name="Planificacion y Estrategia Creativa" />
             </div>
           </div>
         </div>
