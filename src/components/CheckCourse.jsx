@@ -1,35 +1,18 @@
 import React from "react";
 
-function CheckCourse({ emoji, arrow, background }) {
+function CheckCourse({ emoji, arrow, background, text, textColor }) {
   return (
-    <div className="text-gray-600 body-font bg-black">
-      <div className="">
-        <div className="container px-5 py-6 mx-auto flex items-center justify-start sm:flex-row flex-col">
-          <p className="flex title-font font-medium  justify-start items-start text-yellow-500">
-            <span className="ml-3 text-xl">{emoji}</span>
-          </p>
-          <p className="text-sm text-yellow-500 sm:ml-10 sm:mt-0 mt-4">
-            Chequea todos los cursos
-          </p>
-          <p className="flex title-font font-medium  justify-center items-center text-yellow-500">
-            <span className="ml-3 text-xl">Tailblocks</span>
-          </p>
-          <p className="text-sm text-yellow-500 sm:ml-10 sm:mt-0 mt-4">
-            Chequea todos los cursos
-          </p>
-          <p className="flex title-font font-medium  justify-center items-center text-yellow-500">
-            <span className="ml-3 text-xl">Tailblocks</span>
-          </p>
-          <p className="text-sm text-yellow-500 sm:ml-10 sm:mt-0 mt-4">
-            Chequea todos los cursos
-          </p>
-          <p className="flex title-font font-medium  justify-center items-center text-yellow-500">
-            <span className="ml-3 text-xl">Tailblocks</span>
-          </p>
-          <p className="text-sm text-yellow-500 sm:ml-10 sm:mt-0 mt-4">
-            Chequea todos los cursos
-          </p>
-        </div>
+    <div className={`body-font ${background}`}>
+      <div className="container px-5 py-3 mx-auto flex items-center justify-start sm:flex-row flex-col md:mr-20 md:-ml-9">
+        <p className="text-sm  sm:ml-7 sm:mt-0 mt-4">{arrow}</p>
+        <p className="text-sm sm:ml-7 sm:mt-0 mt-4">{emoji}</p>
+        <p className={`text-xl ${textColor} sm:ml-7 sm:mt-0 mt-4`}>{text}</p>
+        <p className="text-sm  sm:ml-7 sm:mt-0 mt-4">{arrow}</p>
+        <p className="text-sm sm:ml-7 sm:mt-0 mt-4">{emoji}</p>
+        <p className={`text-xl ${textColor} sm:ml-7 sm:mt-0 mt-4`}>{text}</p>
+        <p className="text-sm  sm:ml-7 sm:mt-0 mt-4">{arrow}</p>
+        <p className="text-sm sm:ml-7 sm:mt-0 mt-4">{emoji}</p>
+        <p className={`text-xl ${textColor} sm:ml-7 sm:mt-0 mt-4`}>{text}</p>
       </div>
     </div>
   );

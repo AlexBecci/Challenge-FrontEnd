@@ -1,5 +1,6 @@
 import Blog from "./components/Blog";
 import CheckCourse from "./components/CheckCourse";
+import Arrow from "./components/CheckCourseComponents/Arrow";
 import EmojiBear from "./components/CheckCourseComponents/EmojiBear";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
@@ -11,7 +12,13 @@ function App() {
       <NavBar />
       <Home />
       <Blog />
-      <CheckCourse emoji={<EmojiBear/>} />
+      <CheckCourse
+        emoji={<EmojiBear />}
+        text="Chequea todos los cursos"
+        arrow={<Arrow />}
+        background="bg-black"
+        textColor={"text-yellow-300"}
+      />
       <Notices />
     </div>
   );
