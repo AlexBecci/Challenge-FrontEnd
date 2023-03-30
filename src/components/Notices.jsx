@@ -5,8 +5,8 @@ import news1 from "../images/News/news-01.jpg";
 import news2 from "../images/News/news-02.jpg";
 import news3 from "../images/News/news-03.jpg";
 import news4 from "../images/News/news-04.jpg";
-import news5 from "../images/News/news-05.jpg";
-import news6 from "../images/News/news-06.jpg";
+import news6 from "../images/News/news-05.jpg";
+import news5 from "../images/News/news-06.jpg";
 import news7 from "../images/News/news-07.jpg";
 import news8 from "../images/News/news-08.jpg";
 
@@ -59,14 +59,14 @@ function Notices() {
             height={"lg:h-72"}
           />
           <CardNotices
-            text="Somosla escuela con mas finalistas en el Festival CDEC(otra vez :) )"
+            text="Somos la escuela con mas finalistas en el Festival CDEC(otra vez :) )"
             img={news7}
             date=" 04/04/2022"
             height={"lg:h-36"}
           />
           <CardNotices
-            text="TEST PRUEBA PELITGROOOOO"
-            img={news8}
+            text="Nueva representacion del kingdom a cargo del Ilustrador asis percales"
+            img={news8} 
             date=" 04/04/2022"
             height={"lg:h-80"}
           />
