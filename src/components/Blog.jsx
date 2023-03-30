@@ -10,7 +10,7 @@ import thumb5 from "../images/Thumb/thumb-06.jpg";
 
 function Blog() {
   return (
-    <section className="text-gray-800 body-font bg-slate-200 w-full">
+    <section className="text-gray-800 body-font bg-orange-50 w-full">
       <div className="container px-5 py-20 mx-auto">
         <div className="flex flex-wrap -m-12">
           <div className="p-12 md:w-1/2 flex flex-col items-start px-20">
