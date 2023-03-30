@@ -4,7 +4,7 @@ function CardNotices({text,img,date, height}) {
   return (
     <div className="xl:w-1/4 md:w-1/2 p-4 ">
       <div className="h-full  border-opacity-60 rounded-lg overflow-hidden">
-          <img className={`lg:h-${height} md:h-36 w-96 object-cover object-center border-4 border-black`} src={img} alt="blog"/>
+          <img className={`${height} md:h-36 w-full object-cover object-center border-4 border-black`} src={img} alt="blog"/>
           <div className="p-6">
         
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">{text}</h1>
