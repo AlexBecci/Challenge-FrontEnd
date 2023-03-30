@@ -1,17 +1,14 @@
 import React from "react";
 import CardNotices from "./Notices/CardNotices";
-import bThinker from "../images/bThinker.jpg";
-import blackAndWhite from "../images/blackAndWhite.jpg";
-import pintaColorea from "../images/pintaColorea.jpg";
-import alumnosBrother from "../images/alumnosBrother.jpg";
-import peopleEvent from "../images/peopleEvent.jpg";
-import sillonImage from "../images/sillonImage.jpg";
-import genteSillonImage from "../images/genteSillonImage.jpg";
-import beerBrother from "../images/beerBrother.jpg";
 
-
-
-
+import news1 from "../images/News/news-01.jpg";
+import news2 from "../images/News/news-02.jpg";
+import news3 from "../images/News/news-03.jpg";
+import news4 from "../images/News/news-04.jpg";
+import news5 from "../images/News/news-05.jpg";
+import news6 from "../images/News/news-06.jpg";
+import news7 from "../images/News/news-07.jpg";
+import news8 from "../images/News/news-08.jpg";
 
 function Notices() {
   return (
@@ -27,49 +24,49 @@ function Notices() {
         <div className="flex flex-wrap mx-4 px-2">
           <CardNotices
             text="Chin chin por nuestra plata en el #hackforgood del cdec"
-            img={bThinker}
+            img={news1}
             date=" 04/04/2022"
             height={"lg:h-72"}
           />
           <CardNotices
             text="Dos alumnas de Brother crean la primera manifestacion feminista en Twich"
-            img={blackAndWhite}
+            img={news2}
             date=" 04/04/2022"
             height={"lg:h-40"}
           />
           <CardNotices
             text="Brother Presenta <Pinta y Colorea>: el ciclo con el mejor talento grafico de madrid"
-            img={pintaColorea}
+            img={news3}
             date=" 04/04/2022"
             height={"lg:h-64"}
           />
           <CardNotices
             text="Las nuevas ideas llegan a correos gracias a los alumnos de Brother"
-            img={alumnosBrother}
+            img={news4}
             date=" 04/04/2022"
             height={"lg:h-48"}
           />
           <CardNotices
             text="Chin chin por nuestra plata en el #hackforgood del cdec"
-            img={peopleEvent}
+            img={news5}
             date=" 04/04/2022"
             height={"lg:h-40"}
           />
           <CardNotices
             text="#PROHIBIDOFIJARCARTELES: UNA NUEVA OPORTUNIDAD PARA EL CARTEL MAS FEO DEL MUNDO"
-            img={sillonImage}
+            img={news6}
             date=" 04/04/2022"
             height={"lg:h-72"}
           />
           <CardNotices
             text="Somosla escuela con mas finalistas en el Festival CDEC(otra vez :) )"
-            img={genteSillonImage}
+            img={news7}
             date=" 04/04/2022"
             height={"lg:h-36"}
           />
           <CardNotices
             text="TEST PRUEBA PELITGROOOOO"
-            img={beerBrother}
+            img={news8}
             date=" 04/04/2022"
             height={"lg:h-80"}
           />
