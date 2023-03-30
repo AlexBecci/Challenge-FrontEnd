@@ -7,6 +7,7 @@ import EmojiHappy from "./components/CheckCourseComponents/EmojiHappy";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Notices from "./components/Notices";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <Blog />
       <CheckCourse emoji={<EmojiBear />} text="Chequea todos los cursos" arrow={<ArrowYellow />} background="bg-black" textColor={"text-yellow-300"}/>
       <Notices />
-      <CheckCourse emoji={<EmojiHappy/>} text="Revisa todas las noticias" arrow={<ArrowWhite/>} background="bg-rose-600" textColor={"text-gray-300"}/>
+      <CheckCourse emoji={<EmojiHappy/>} text="Revisa todas las noticias" arrow={<ArrowWhite/>} background="bg-rose-600" textColor={"text-gray-200"}/>
+      <Contact/>
     </div>
   );
 }
