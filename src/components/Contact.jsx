@@ -10,7 +10,7 @@ function Contact() {
           <div className="lg:px-0 px-4 md:w-1/2 w-full">
             <ImageTitle />
           </div>
-          <div className="py-4 px-10 md:w-1/2 w-full">
+          <div className="md:py-4 md:px-10 md:w-1/2 w-full">
             <Form />
           </div>
         </div>

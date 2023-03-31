@@ -4,7 +4,7 @@ function TextFooter() {
   return (
     <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
       <div>
-        <p className="px-16 text-sm font-normal">
+        <p className="lg:px-16 lg:text-sm font-normal">
           <span className="hover:text-yellow-200 cursor-pointer duration-300">
             C/ Gran Vía, 27, 6º Izquierda, 28013 Madrid
           </span>

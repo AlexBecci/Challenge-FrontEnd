@@ -16,9 +16,9 @@ function EmojiFooter() {
                 <TbWorld size={40} />
               </a>
             </div>
-            <div className="flex flex-wrap  md:mr-auto pt-3">
-                <h1>2023</h1>
-                <p className="mx-2">Brother Madrid</p>
+            <div className="flex flex-wrap  md:mr-auto pt-3 lg:pb-0 pb-5 lg:text-base text-xl">
+                <h1 >2023</h1>
+                <p className="mx-2 ">Brother Madrid</p>
             </div>
           </div>
   );

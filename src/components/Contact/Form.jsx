@@ -2,14 +2,14 @@ import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
 function Form() {
   return (
-    <div className="h-full  px-8 py-12 rounded mx-14">
+    <div className="h-full  lg:px-8 lg:py-12 py-7 rounded lg:mx-14 mx-6">
       <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
         ¿Quieres saber más sobre nuestros cursos?
       </h2>
-      <p className="leading-relaxed mb-5 text-gray-600">
+      <p className="lg:leading-relaxed lg:mb-5 text-gray-600">
         Completá este formulario
       </p>
-      <div className="relative mb-4">
+      <div className="relative lg:mb-4 mb-5">
         <label for="name" className="leading-7 text-sm text-gray-600">
           Nombre*
         </label>
@@ -73,8 +73,8 @@ function Form() {
           placeholder="Escribe un mensaje adicional"
         ></textarea>
       </div>
-      <p className="text-xs text-gray-800 py-0 pb-5">*datos obligatorios</p>
-      <button className="text-gray-700 hover:text-gray-900  bg-white border-2 py-1 px-10  hover:bg-zinc-100 text-base border-gray-950">
+      <p className="lg:text-xs text-gray-800 py-0 pb-5">*datos obligatorios</p>
+      <button className="text-gray-700 hover:text-gray-900  bg-white border-2 py-1 px-10  hover:bg-zinc-100 lg:text-base text-lg border-gray-950">
         Enviar
       </button>
     </div>

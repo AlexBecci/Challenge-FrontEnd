@@ -2,7 +2,7 @@ import React from "react";
 
 function CardNotices({ text, img, date, height }) {
   return (
-    <div className="xl:w-1/4 md:w-1/2 px-3">
+    <div className="xl:w-1/4 md:w-1/2 px-3 md:py-0 py-5">
       <div className="h-full   overflow-hidden">
         <img
           className={`${height} md:h-36 w-full object-cover object-center border-4 border-black`}

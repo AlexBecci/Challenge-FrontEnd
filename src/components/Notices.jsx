@@ -21,7 +21,7 @@ function Notices() {
             </h1>
           </div>
         </div>
-        <div className="flex flex-wrap mx-4 px-2">
+        <div className="flex flex-wrap md:mx-4 mx-1 sm:px-2 px-1">
           <CardNotices
             text="Chin chin por nuestra plata en el #hackforgood del cdec"
             img={news1}
