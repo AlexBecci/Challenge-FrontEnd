@@ -11,7 +11,7 @@ function Home() {
     <section className="text-gray-600 body-font overflow-hidden bg-black">
       <div className="container px-5 py-12 pb-0 mb-0 mx-auto">
         <FaAsterisk size={20} className="text-blue-800  hover:animate-spin " />
-        <div className="flex flex-wrap -m-12 border-t border-gray-600 md:my-12 ">
+        <div className="flex flex-wrap -m-12 border-t border-gray-600 md:my-12 mb-2">
           <div className="p-12 md:w-1/2 flex flex-col items-center sm:pl-80 ">
             <AiOutlineMinusCircle className="text-zinc-800 md:text-gray-500 w-12 h-12 hover:animate-spin lg:mr-96" />
             <div className="md:mx-0 mx-24">
