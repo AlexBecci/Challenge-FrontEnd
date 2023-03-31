@@ -13,9 +13,9 @@ function Home() {
         <FaAsterisk size={20} className="text-blue-800  hover:animate-spin " />
         <div className="flex flex-wrap -m-12 border-t border-gray-600 my-12 ">
           <div className="p-12 md:w-1/2 flex flex-col items-center sm:pl-80 ">
-            <AiOutlineMinusCircle className="text-gray-500 w-12 h-12 hover:animate-spin lg:mr-96" />
+            <AiOutlineMinusCircle className="text-zinc-800 md:text-gray-500 w-12 h-12 hover:animate-spin lg:mr-96" />
             <div className="md:mx-0 mx-28">
-              <h2 className="sm:text-9xl  title-font font-medium  md:-mt-24  px-4 text-3xl font-serif leading-none   text-white md:ml-20 md:pl-14">
+              <h2 className="sm:text-9xl  title-font font-medium  md:-mt-24  px-3 text-4xl font-serif leading-none   text-white md:ml-20 md:pl-14">
                 Brother
               </h2>
               <h2 className="sm:text-9xl  title-font font-medium  mt-2  px-4 text-3xl font-serif leading-none   text-zinc-700 ">
@@ -83,11 +83,11 @@ function Home() {
                 />
               </div>
             </div>
-            <h1 className=" px-20 cursor-pointer text-slate-500">
+            <h1 className="px-3.5 md:px-20 cursor-pointer text-zinc-500">
               // Ver todos los cursos
             </h1>
-            <div className="">
-              <button className="lg:mx-20 mt-5 flex flex-row items-center bg-blue-600 text-white py-2 px-5 rounded-tl-xl text-sm font-semibold rounded-bl-sm hover:scale-105 duration-300 hover:bg-yellow-500">
+            <div className="md:mx-0 mx-3.5">
+              <button className="lg:mx-20 mt-5 flex flex-row items-center bg-blue-600 text-white py-2 px-5 rounded-tl-xl md:text-sm font-semibold rounded-bl-sm hover:scale-105 duration-300 hover:bg-yellow-500">
                 <FiMessageSquare size={20} className="mr-1" />
                 Hola, Bro :)
               </button>
@@ -95,12 +95,12 @@ function Home() {
           </div>
           <div>
             <div className=" rotate-45">
-              <FiHexagon className="text-yellow-300 w-24 h-24 hover:animate-spin -mt-80 ml-16 " />
+              <FiHexagon className="text-yellow-300 w-10 h-10 md:w-24 md:h-24 hover:animate-spin -mt-40 md:-mt-80 md:ml-16 ml-64 " />
             </div>
           </div>
           <div>
             <div className="">
-              <BsFillCircleFill className="text-rose-500 w-16 h-16 hover:animate-bounce -mt-40 pr-10 " />
+              <BsFillCircleFill className="text-rose-500 w-8 h-8 md:w-16 md:h-16 md:hover:animate-bounce hover:animate-pulse -mt-32 md:-mt-40 md:pr-10 " />
             </div>
           </div>
           <div className="ml-80">
