@@ -103,8 +103,8 @@ function Home() {
               <BsFillCircleFill className="text-rose-500 w-8 h-8 md:w-16 md:h-16 md:hover:animate-bounce hover:animate-pulse -mt-32 md:-mt-40 md:pr-10 " />
             </div>
           </div>
-          <div className="ml-80">
-            <FaAsterisk className="text-blue-800 w-12 h-12 hover:animate-spin ml-80 -mr-80 -mt-96 " />
+          <div className="lg:ml-80">
+            <FaAsterisk className="text-blue-800 w-12 h-12 hover:animate-spin lg:ml-80 lg:-mr-80 lg:-mt-96 -mt-20 " />
           </div>
         </div>
       </div>

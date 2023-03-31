@@ -11,7 +11,7 @@ function ImageTitle() {
           #Sosloqueahacés
         </p>
         <div className="hover:animate-pulse md:ml-10">
-          <BearMisc/>
+          <BearMisc />
         </div>
       </div>
     </div>

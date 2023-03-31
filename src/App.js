@@ -12,15 +12,15 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <main className="">
-      <NavBar />
-      <Home />
-      <Blog />
-      <CheckCourse emoji={<EmojiBear />} text="Chequea todos los cursos" arrow={<ArrowYellow />} background="bg-black" textColor={"text-yellow-300"}/>
-      <Notices />
-      <CheckCourse emoji={<EmojiHappy/>} text="Revisa todas las noticias" arrow={<ArrowWhite/>} background="bg-rose-600" textColor={"text-gray-200"}/>
-      <Contact/>
-      <Footer/>
+    <main className="w-full md:w-auto">
+        <NavBar />
+        <Home />
+        <Blog />
+        <CheckCourse emoji={<EmojiBear />} text="Chequea todos los cursos" arrow={<ArrowYellow />} background="bg-black" textColor={"text-yellow-300"}/>
+        <Notices />
+        <CheckCourse emoji={<EmojiHappy/>} text="Revisa todas las noticias" arrow={<ArrowWhite/>} background="bg-rose-600" textColor={"text-gray-200"}/>
+        <Contact/>
+        <Footer/>
     </main>
   );
 }
