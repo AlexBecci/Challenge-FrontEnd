@@ -14,26 +14,31 @@ function Home() {
         <div className="flex flex-wrap -m-12 border-t border-gray-600 my-12 ">
           <div className="p-12 md:w-1/2 flex flex-col items-center sm:pl-80 ">
             <AiOutlineMinusCircle className="text-gray-500 w-12 h-12 hover:animate-spin lg:mr-96" />
-            <h2 className="sm:text-9xl  title-font font-medium  -mt-24  px-4 text-3xl font-serif leading-none   text-white ml-20 pl-14">
-              Brother
-            </h2>
-            <h2 className="sm:text-9xl  title-font font-medium  mt-2  px-4 text-3xl font-serif leading-none   text-zinc-700 ">
-              Madrid
-            </h2>
-            <h2 className=" text-center py-2 text-2xl font-serif my-auto leading-none  text-white">
-              Doers School
-            </h2>
-            <p className="text-white ">
-              <BsArrowDown
-                className="hover:scale-125 duration-500 animate-bounce mt-20 -mb-10"
-                size={40}
-              />
-            </p>
+            <div className="md:mx-0 mx-28">
+              <h2 className="sm:text-9xl  title-font font-medium  md:-mt-24  px-4 text-3xl font-serif leading-none   text-white md:ml-20 md:pl-14">
+                Brother
+              </h2>
+              <h2 className="sm:text-9xl  title-font font-medium  mt-2  px-4 text-3xl font-serif leading-none   text-zinc-700 ">
+                Madrid
+              </h2>
+              <h2 className=" text-center py-2 md:text-2xl font-serif my-auto leading-none  text-white">
+                Doers School
+                <br />
+                <span>
+                  <p className="text-white ">
+                    <BsArrowDown
+                      className="hover:scale-125 duration-500 animate-bounce mx-auto md:mt-36 md:-mb-10 mb-20 mt-10"
+                      size={40}
+                    />
+                  </p>
+                </span>
+              </h2>
+            </div>
           </div>
           <div className="p-12 md:w-1/2 flex flex-col items-start lg:pl-72">
             <div className="mt-0 text-gray-400">
-              <div className="px-2 py-1 scale-95 text-center flex flex-row  mb-10">
-                <div>
+              <div className="py-1 scale-95 text-center flex flex-row  mb-10">
+                <div className="mx-20">
                   <BsHexagon
                     className="text-orange-600 absolute -mt-40"
                     size={200}

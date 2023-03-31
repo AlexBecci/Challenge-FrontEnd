@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="">
+    <main className="">
       <NavBar />
       <Home />
       <Blog />
@@ -21,7 +21,7 @@ function App() {
       <CheckCourse emoji={<EmojiHappy/>} text="Revisa todas las noticias" arrow={<ArrowWhite/>} background="bg-rose-600" textColor={"text-gray-200"}/>
       <Contact/>
       <Footer/>
-    </div>
+    </main>
   );
 }
 
