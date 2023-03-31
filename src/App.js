@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <main className="w-full md:w-auto">
+    <main className="overflow-hidden">
         <NavBar />
         <Home />
         <Blog />
