@@ -29,13 +29,13 @@ function Notices() {
             height={"lg:h-72"}
           />
           <CardNotices
-            text="Dos alumnas de Brother crean la primera manifestacion feminista en Twich"
+            text="Dos alumnas de Brother crean la primera manifestación feminista en Twich"
             img={news2}
             date=" 04/04/2022"
             height={"lg:h-40"}
           />
           <CardNotices
-            text="Brother Presenta <Pinta y Colorea>: el ciclo con el mejor talento grafico de madrid"
+            text="Brother Presenta <Pinta y Colorea>: el ciclo con el mejor talento gráfico de madrid"
             img={news3}
             date=" 04/04/2022"
             height={"lg:h-64"}
@@ -53,19 +53,19 @@ function Notices() {
             height={"lg:h-40"}
           />
           <CardNotices
-            text="#PROHIBIDOFIJARCARTELES: UNA NUEVA OPORTUNIDAD PARA EL CARTEL MAS FEO DEL MUNDO"
+            text="#PROHIBIDOFIJARCARTELES: UNA NUEVA OPORTUNIDAD PARA EL CARTEL MÁS FEO DEL MUNDO"
             img={news6}
             date=" 04/04/2022"
             height={"lg:h-72"}
           />
           <CardNotices
-            text="Somos la escuela con mas finalistas en el Festival CDEC(otra vez :) )"
+            text="Somos la escuela con más finalistas en el Festival CDEC(otra vez :) )"
             img={news7}
             date=" 04/04/2022"
             height={"lg:h-36"}
           />
           <CardNotices
-            text="Nueva representacion del kingdom a cargo del Ilustrador asis percales"
+            text="Nueva representación del kingdom a cargo del Ilustrador asis percales"
             img={news8} 
             date=" 04/04/2022"
             height={"lg:h-80"}

@@ -21,7 +21,7 @@ function NavBar2() {
             href="#s"
             className="mx-5 hover:border-b border-b-gray-600  hover:text-white hover:font-bold"
           >
-            Quienes somos
+            Quienés somos
           </a>
           <a
             href="#s"

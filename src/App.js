@@ -18,7 +18,7 @@ function App() {
         <Blog />
         <CheckCourse emoji={<EmojiBear />} text="Chequea todos los cursos" arrow={<ArrowYellow />} background="bg-black" textColor={"text-yellow-300"}/>
         <Notices />
-        <CheckCourse emoji={<EmojiHappy/>} text="Revisa todas las noticias" arrow={<ArrowWhite/>} background="bg-rose-600" textColor={"text-gray-200"}/>
+        <CheckCourse emoji={<EmojiHappy/>} text="Revisá todas las noticias" arrow={<ArrowWhite/>} background="bg-rose-600" textColor={"text-gray-200"}/>
         <Contact/>
         <Footer/>
     </main>

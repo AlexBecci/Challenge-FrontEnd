@@ -20,6 +20,11 @@ function TextFooter() {
           <span className="hover:text-yellow-200 cursor-pointer duration-300">
             madrid@brotherad.com
           </span>
+          <br />
+          <span className="pt-2">
+            Made by{" "}
+            <span className="text-gray-400 font-extrabold">20DEDOS</span>
+          </span>
         </p>
       </div>
     </div>

@@ -61,7 +61,7 @@ function Home() {
                 <p className="group-hover:text-gray-900">
                   Hay plazas disponibles.
                   <br />
-                  Apuntate
+                  Apúntate
                 </p>
                 <BsArrowDown
                   size={20}
@@ -72,7 +72,7 @@ function Home() {
             <div className="-mt-1.5 text-gray-400">
               <div className=" border-b-gray-500 border-b px-2 py-1 border-l-4 border-l-orange-500 rounded-sm group hover:bg-white hover:border-gray-100 hover:border-l-orange-700 duration-500 cursor-pointer scale-95 ">
                 <h3 className="text-2xl font-semibold group-hover:text-black  text-white ">
-                  Planificacion y Estrategia Creativa
+                  Planificación y Estrategia Creativa
                 </h3>
                 <p className="group-hover:text-gray-900">
                   Quedan pocas plazas. No te quedes fuera!
