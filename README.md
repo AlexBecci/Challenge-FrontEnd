@@ -13,10 +13,9 @@ git clone: "https://github.com/AlexBecci/Challenge-FrontEnd.git"
 
 2. Pre-requerimientos 🛠
 Necesitará estos requisitos para un buen rendimiento:
--
-Node.JS
-npm
--
+"Node.JS"
+"npm"
+
 
 3. Instalación 🔩
 Necesitará ejecutar estos comandos para la instalación:
