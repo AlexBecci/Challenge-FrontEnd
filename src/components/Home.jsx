@@ -11,11 +11,11 @@ function Home() {
     <section className="text-gray-600 body-font overflow-hidden bg-black">
       <div className="container px-5 py-12 pb-0 mb-0 mx-auto">
         <FaAsterisk size={20} className="text-blue-800  hover:animate-spin " />
-        <div className="flex flex-wrap -m-12 border-t border-gray-600 my-12 ">
+        <div className="flex flex-wrap -m-12 border-t border-gray-600 md:my-12 ">
           <div className="p-12 md:w-1/2 flex flex-col items-center sm:pl-80 ">
             <AiOutlineMinusCircle className="text-zinc-800 md:text-gray-500 w-12 h-12 hover:animate-spin lg:mr-96" />
-            <div className="md:mx-0 mx-28">
-              <h2 className="sm:text-9xl  title-font font-medium  md:-mt-24  px-3 text-4xl font-serif leading-none   text-white md:ml-20 md:pl-14">
+            <div className="md:mx-0 mx-24">
+              <h2 className="sm:text-9xl  title-font font-medium  md:-mt-24  px-0 text-5xl font-serif leading-none   text-white md:ml-20 md:pl-14">
                 Brother
               </h2>
               <h2 className="sm:text-9xl  title-font font-medium  mt-2  px-4 text-3xl font-serif leading-none   text-zinc-700 ">
